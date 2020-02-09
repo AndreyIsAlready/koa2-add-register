@@ -1,0 +1,62 @@
+body{
+    margin-left: 30vw;
+    margin-top: 12%;
+    background: blueviolet;
+}
+
+#login {
+    box-shadow: 0px 0px 0px 0px;
+    border: 1px solid yellow;
+    padding: 40px;
+    width: 400px;
+    transition:box-shadow 1s linear, color 1s 1s ease-in-out, width 1s 2s ease;
+    -moz-transition:box-shadow 1s linear, color 1s 1s ease-in-out, width 1s 2s ease;
+    -webkit-transition:box-shadow 1s linear, color 1s 1s ease-in-out, width 1s 2s ease;
+    -o-transition:box-shadow 1s linear, color 1s 1s ease
+}
+
+#login:hover {
+    box-shadow: 12px 0px 12px 0px;
+    border: 1px solid yellow;
+    padding: 40px;
+    width: 400px;
+}
+
+#input{
+    box-shadow: 0px 0px 0px 0px;
+    background: black;
+    color:white;
+    margin-bottom: 8px;
+    border: 2px solid rgb(115, 202, 127);
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+    transition:box-shadow 1s linear, color 1s 1s ease-in-out, width 1s 2s ease;
+    -moz-transition:box-shadow 1s linear, color 1s 1s ease-in-out, width 1s 2s ease;
+    -webkit-transition:box-shadow 1s linear, color 1s 1s ease-in-out, width 1s 2s ease;
+    -o-transition:box-shadow 1s linear, color 1s 1s ease
+}
+
+#input:focus{
+    box-shadow: 12px 0px 12px 0px;
+}
+
+button{
+    width: 353px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 5px;
+    transition:background-color 1s linear, color 1s 1s ease-in-out, width 1s 2s ease;
+    -moz-transition:background-color 1s linear, color 1s 1s ease-in-out, width 1s 2s ease;
+    -webkit-transition:background-color 1s linear, color 1s 1s ease-in-out, width 1s 2s ease;
+    -o-transition:background-color 1s linear, color 1s 1s ease
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(50, 216, 188);
+}
+
+a{
+    color: rgb(238, 95, 214);
+}
