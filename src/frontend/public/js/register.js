@@ -3,7 +3,7 @@ let button = document.querySelector('button');
 
 let register = () => {
     const request = new XMLHttpRequest();
-    let url = '/addUser'
+    let url = '/addUser';
     let body = {name: form[0].value, surname: form[1].value, email: form[2].value, password: form[3].value};
     request.responseType = "json";
     request.open('POST', url, true);
