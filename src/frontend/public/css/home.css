@@ -1,0 +1,10 @@
+*{
+    background-color: gray;
+}
+
+#home {
+   position: relative;
+   left: 25%;
+   color: blue;
+   font-size: 200px;
+}
